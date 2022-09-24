@@ -1,0 +1,125 @@
+body{
+    background-color: #9fcaef;
+    padding-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #9fcaef;
+    height: 270px;
+
+}
+.header-nav {
+    background-color: #2d2bb0;
+}
+.header-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+}
+.header-nav ul li {
+    padding: 8px 0px;
+    list-style: none;
+}
+.header-nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-menu__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-menu__logo img {
+    height: 200px;
+    width: 200px;
+}
+.header-menu__logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-menu__logo-text p {
+    line-height: 5px;
+    margin-left: 5px;
+    white-space:nowrap;
+}
+.header-menu__logo-text p h1{
+    margin-left:20px;
+}
+.header-menu__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.header-menu__link p span {
+    color: pink;
+}
+.header-menu__link-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.header-menu__link-icon a img {
+    width: 32px;
+    height: 26px;
+
+}
+.header-menu__phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+.header-menu__phone a {
+    color: yellow !important;
+}
+
+
+.about_studioText img{
+
+    height: 300px;
+    width: 350px;
+
+}
+.about_studioText p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; 
+    margin-bottom: 6%;
+}
+.Photos a img{
+    padding-top: 10px;
+    height: 280px;
+    width: 350px;
+}
